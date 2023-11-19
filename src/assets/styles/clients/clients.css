@@ -1,0 +1,11 @@
+.clients__container {
+  @apply max-w-xl mx-auto text-center mb-16
+}
+
+.clients-title {
+  @apply text-accent-100 mb-2
+}
+
+.clients-subtitle {
+   @apply  text-bg-100 mb-6
+}

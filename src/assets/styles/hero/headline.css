@@ -1,0 +1,19 @@
+.headline__title {
+  @apply w-full self-center px-4 lg:w-1/2
+}
+
+.headline__title h1 {
+  @apply text-primary-100 text-base font-semibold md:text-xl lg:text-2xl
+}
+
+.headline__title h1 span {
+  @apply block font-bold text-accent-100 text-2xl lg:text-4xl
+}
+
+.headline__position {
+  @apply font-medium text-text-200 text-lg mb-5 lg:text-2xl
+}
+
+.headline__desc {
+  @apply font-medium text-dark-400 mb-4 leading-relaxed
+}

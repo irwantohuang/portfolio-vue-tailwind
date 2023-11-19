@@ -1,0 +1,11 @@
+.portfolio__content {
+  @apply max-w-xl mx-auto text-center mb-16
+}
+
+.content-title {
+  @apply text-primary-100 mb-2
+}
+
+.content-subtitle {
+  @apply text-text-100 mb-6
+}

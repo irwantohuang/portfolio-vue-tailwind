@@ -1,0 +1,19 @@
+.hero__content {
+  @apply w-full self-end px-4 lg:w-1/2
+}
+
+.content {
+  @apply relative mt-10 lg:mt-0 lg:right-0 
+}
+
+.content img {
+  @apply max-w-full scale-105 md:scale-100 mx-auto 
+}
+
+.blob {
+  @apply absolute -bottom-0 left-1/2 -translate-x-1/2 -z-10 
+}
+
+.blob svg {
+  @apply w-[300px] h-[300px] md:w-[350px] md:h-[350px]
+}

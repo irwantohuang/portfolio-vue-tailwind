@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+
+@import './styles/global.css';
+
+/* Navbar Styles */
+@import './styles/navbar/navbar.css';
+
+/* Hero Styles */
+@import './styles/hero/headline.css';
+@import './styles/hero/content.css';
+
+/* About Styles */
+@import './styles/about/about_me.css';
+@import './styles/about/social.css';
+
+/* Portfolio Styles */
+@import './styles/portfolio/recent_project.css';
+@import './styles/portfolio/portfolio.css';
+
+/* Clients Styles */
+@import './styles/clients/my_clients.css';
+@import './styles/clients/clients.css';
+
+/* Contact Styles */
+@import './styles/contact/contact_form.css';
+
+/* Footer Styles */
+@import './styles/footer.css';
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+  html {
+    @apply scroll-smooth;
+    font-family: 'Open Sans', sans-serif;
+  }
+}

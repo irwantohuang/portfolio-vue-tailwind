@@ -1,0 +1,19 @@
+.social {
+  @apply w-full px-4 lg:w-1/2 lg:px-8
+}
+
+.social__title {
+  @apply text-xl text-text-100 font-semibold mb-1 lg:pt-14 lg:text-2xl
+}
+
+.social__desc {
+  @apply text-base text-dark-400 text-justify max-w-xl
+}
+
+.social-media {
+  @apply flex items-center mt-2 gap-4 text-xl
+}
+
+.social-media a {
+  @apply border border-dark-400 rounded-full w-10 h-10 flex items-center justify-center hover:text-white transition-all ease-in duration-100 hover:scale-125
+}

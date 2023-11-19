@@ -1,0 +1,16 @@
+.form__container {
+  @apply w-full lg:w-2/3 mx-auto
+}
+
+.form__section {
+  @apply w-full lg:w-2/3 mx-auto
+}
+
+.form__section label {
+  @apply text-base font-bold text-primary-100
+}
+
+.form__section input,
+.form__section textarea {
+  @apply w-full bg-bg-300 text-text-100 p-3 rounded-md  focus:outline-none focus:ring-primary-100 focus:ring-1 focus:border-primary-100 mb-4
+}

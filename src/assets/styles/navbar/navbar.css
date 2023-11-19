@@ -1,0 +1,58 @@
+.header {
+  @apply flex items-center absolute top-0 left-0 w-full z-10
+}
+
+.header__content {
+  @apply flex items-center justify-between relative
+}
+
+.navbar-fixed {
+  @apply fixed z-[9999] bg-opacity-90; 
+  backdrop-filter:blur(5px);
+  box-shadow: inset 0 -1px 0 0 rgba(0,0,0,.2)
+}
+
+
+.content-logo {
+  @apply px-4
+}
+
+.content-logo a {
+  @apply font-bold text-lg text-primary-100 block py-6
+}
+
+.content-menu {
+  @apply flex items-center px-4
+}
+
+.content-menu .hamburger-btn {
+  @apply block absolute right-4 lg:hidden
+}
+
+.hamburger-line {
+  @apply w-[30px] h-[2px] my-2 block bg-text-100 transition-all duration-300 ease-in-out
+}
+
+.hamburger-active > span:nth-child(1) {
+  @apply  rotate-45
+}
+
+.hamburger-active > span:nth-child(2) {
+  @apply  scale-0
+}
+
+.hamburger-active > span:nth-child(3) {
+  @apply  -rotate-45
+}
+
+.menu-nav {
+  @apply absolute py-8 bg-white lg:bg-transparent right-4 max-w-[250px] w-full top-full shadow-lg rounded-lg lg:max-w-full lg:static lg:shadow-none lg:rounded-none
+}
+
+.menu-nav ul {
+  @apply block lg:flex
+}
+
+.menu-link {
+  @apply text-base font-semibold inline-block  py-2 mx-8 text-dark-400 group-hover:text-primary-100 group-hover:border-b group-hover:border-primary-100 transition-all
+}
