@@ -3,14 +3,14 @@
 }
 
 .form__section {
-  @apply w-full lg:w-2/3 mx-auto
+  @apply w-full px-4
 }
 
 .form__section label {
-  @apply text-base font-bold text-primary-100
+  @apply text-base font-bold text-primary-100 dark:text-accent-100
 }
 
 .form__section input,
 .form__section textarea {
-  @apply w-full bg-bg-300 text-text-100 p-3 rounded-md  focus:outline-none focus:ring-primary-100 focus:ring-1 focus:border-primary-100 mb-4
+  @apply w-full bg-bg-300 text-text-100 p-3 rounded-md  focus:outline-none focus:ring-primary-100 focus:ring-1 focus:border-primary-100 mb-4 dark:bg-bg-200
 }

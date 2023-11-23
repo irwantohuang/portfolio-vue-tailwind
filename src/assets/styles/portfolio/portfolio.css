@@ -3,9 +3,9 @@
 }
 
 .content-title {
-  @apply text-primary-100 mb-2
+  @apply text-primary-100 mb-2 dark:text-primary-200
 }
 
 .content-subtitle {
-  @apply text-text-100 mb-6
+  @apply text-text-100 mb-6 dark:text-bg-100
 }

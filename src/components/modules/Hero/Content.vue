@@ -1,7 +1,8 @@
 <template>
   <div class="hero__content">
     <div class="content">  
-      <img src="../../../assets/images/profiles.png" alt="Profile Picture">
+      <img src="../../../assets/images/profiles.png" alt="Profile Picture" 
+        data-aos="zoom-in">
       <div class="blob">
         <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
           <path fill="#0077C2"

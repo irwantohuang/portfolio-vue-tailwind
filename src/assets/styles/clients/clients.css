@@ -3,9 +3,9 @@
 }
 
 .clients-title {
-  @apply text-accent-100 mb-2
+  @apply text-accent-100 mb-2 dark:text-primary-100
 }
 
 .clients-subtitle {
-   @apply  text-bg-100 mb-6
+   @apply  text-bg-100 mb-6 dark:text-text-100
 }

@@ -1,8 +1,16 @@
 // import '@fortawesome/fontawesome-free/css/all.css'
 import { createApp } from 'vue'
 import App from './App.vue'
-import router from './router'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 import { Icons } from  './plugins/fontAwesome'
+
+AOS.init({
+  offset: 200,
+  duration: 800,
+  easing: 'ease-in-out',
+  delay: 0,
+})
 
 import './assets/style.css'
 

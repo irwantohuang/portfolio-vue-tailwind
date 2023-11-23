@@ -4,7 +4,12 @@
 
 <template>
   <div class="project__container">
-    <div v-for="data in portfolio" :key="data.index" class="project__card">
+    <div v-for="data in portfolio" :key="data.index" class="project__card" 
+    data-aos="fade-up"
+    data-aos-offset="200"
+    data-aos-duration="800"
+    data-aos-easing="ease-in"
+    >
       <div class="card-img">
         <img :src="data.images" :alt="data.title" class="w-full">
       </div>

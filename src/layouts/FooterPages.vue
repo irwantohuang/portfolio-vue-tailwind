@@ -5,7 +5,7 @@ import { socialMedia } from '@/data/socialMediaLinks';
 </script>
 
 <template>
-  <footer class="bg-text-100 pt-24 pb-12">
+  <footer class="bg-text-100 pt-24 pb-12 dark:bg-slate-800">
     <div class="container">
       <div class="flex flex-wrap">
 

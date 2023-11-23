@@ -3,7 +3,7 @@
 }
 
 .headline__title h1 {
-  @apply text-primary-100 text-base font-semibold md:text-xl lg:text-2xl
+  @apply text-primary-100 text-base font-semibold md:text-xl lg:text-2xl dark:text-primary-200
 }
 
 .headline__title h1 span {
@@ -11,9 +11,9 @@
 }
 
 .headline__position {
-  @apply font-medium text-text-200 text-lg mb-5 lg:text-2xl
+  @apply font-medium text-text-200 text-lg mb-5 lg:text-2xl dark:text-bg-300
 }
 
 .headline__desc {
-  @apply font-medium text-dark-400 mb-4 leading-relaxed
+  @apply font-medium text-dark-400 mb-4 leading-relaxed dark:text-bg-300 dark:opacity-90
 }

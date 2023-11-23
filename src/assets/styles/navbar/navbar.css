@@ -7,8 +7,7 @@
 }
 
 .navbar-fixed {
-  @apply fixed z-[9999] bg-opacity-90; 
-  backdrop-filter:blur(5px);
+  @apply fixed z-[9999] bg-white bg-opacity-70 backdrop-blur-[5px] dark:bg-text-100 dark:bg-opacity-50; 
   box-shadow: inset 0 -1px 0 0 rgba(0,0,0,.2)
 }
 
@@ -18,7 +17,7 @@
 }
 
 .content-logo a {
-  @apply font-bold text-lg text-primary-100 block py-6
+  @apply font-bold text-lg text-primary-100 block py-6 dark:text-accent-100
 }
 
 .content-menu {
@@ -30,7 +29,7 @@
 }
 
 .hamburger-line {
-  @apply w-[30px] h-[2px] my-2 block bg-text-100 transition-all duration-300 ease-in-out
+  @apply w-[30px] h-[2px] my-2 block bg-text-100 transition-all duration-300 ease-in-out dark:bg-bg-100
 }
 
 .hamburger-active > span:nth-child(1) {
@@ -46,7 +45,7 @@
 }
 
 .menu-nav {
-  @apply absolute py-8 bg-white lg:bg-transparent right-4 max-w-[250px] w-full top-full shadow-lg rounded-lg lg:max-w-full lg:static lg:shadow-none lg:rounded-none
+  @apply absolute py-8 bg-white lg:bg-transparent right-4 max-w-[250px] w-full top-full shadow-lg rounded-lg lg:max-w-full lg:static lg:shadow-none lg:rounded-none dark:bg-text-100 dark:shadow-sm dark:shadow-bg-300 lg:dark:bg-transparent lg:dark:shadow-none
 }
 
 .menu-nav ul {
@@ -54,5 +53,5 @@
 }
 
 .menu-link {
-  @apply text-base font-semibold inline-block  py-2 mx-8 text-dark-400 group-hover:text-primary-100 group-hover:border-b group-hover:border-primary-100 transition-all
+  @apply text-base font-semibold inline-block  py-2 mx-8 text-dark-400 group-hover:text-primary-100 group-hover:border-b group-hover:border-primary-100 transition-all dark:text-bg-100 group-hover:dark:text-accent-100
 }

@@ -7,11 +7,11 @@
 }
 
 .content img {
-  @apply max-w-full scale-105 md:scale-100 mx-auto 
+  @apply relative max-w-full scale-105 md:scale-100 mx-auto z-10
 }
 
 .blob {
-  @apply absolute -bottom-0 left-1/2 -translate-x-1/2 -z-10 
+  @apply absolute -bottom-0 left-1/2 -translate-x-1/2
 }
 
 .blob svg {

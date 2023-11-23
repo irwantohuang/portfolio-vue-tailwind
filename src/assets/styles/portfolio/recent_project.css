@@ -7,13 +7,13 @@
 }
 
 .card-img {
-  @apply rounded-lg shadow-md overflow-hidden
+  @apply rounded-lg shadow-md overflow-hidden dark:shadow-slate-700
 }
 
 .card-title {
-  @apply font-semibold text-xl text-text-100 mt-4
+  @apply font-semibold text-xl text-text-100 mt-4 dark:text-bg-200
 }
 
 .card-desc {
-  @apply text-base text-text-200 mt-2
+  @apply text-base text-text-200 mt-2 dark:text-bg-300
 }

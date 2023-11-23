@@ -3,13 +3,13 @@
 }
 
 .title {
-  @apply text-3xl text-primary-100 font-bold mb-4 lg:text-4xl
+  @apply text-3xl text-primary-100 font-bold mb-4 lg:text-4xl dark:text-primary-200
 }
 
 .about__bio {
-  @apply text-xl text-text-100 font-semibold mb-1 max-w-md lg:text-3xl
+  @apply text-xl text-text-100 font-semibold mb-1 max-w-md lg:text-3xl dark:text-bg-200
 }
 
 .about__desc {
-  @apply text-base text-dark-400 text-justify max-w-lg lg:text-sm
+  @apply text-base text-dark-400 text-justify max-w-lg lg:text-sm dark:text-bg-300
 }

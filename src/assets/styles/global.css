@@ -21,3 +21,7 @@
 .text-desc {
   @apply text-base lg:text-lg
 }
+
+#dark-toggle:checked ~ label div.toggle-circle {
+  @apply translate-x-3
+}
